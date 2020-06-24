@@ -89,11 +89,11 @@ storm jar wordCount-1.0-SNAPSHOT.jar com.basic.benchmark.SentenceWordCountThroug
 
 If you want to know more detailed information, please refer to this paper:
 
-Changfu Lin, Jingjing Zhan, Hanhua Chen, Jie Tan, Hai Jin.  "[Ares: A High Performance and Fault-Tolerant Distributed Stream Processing System](https://ieeexplore.ieee.org/document/8526815/)" in Proceedings of 26th International Conference on Network Protocols (ICNP 2018), Cambridge, UK, September 25-27, 2018 ([Bibtex](Ares-conf.bib))
+Changfu Lin, Jingjing Zhan, Hanhua Chen, Jie Tan, Hai Jin.  "[Ares: A High Performance and Fault-Tolerant Distributed Stream Processing System](https://ieeexplore.ieee.org/document/8526815/)" in Proceedings of 26th International Conference on Network Protocols (ICNP 2018), Cambridge, UK, September 25-27, 2018 ([Bibtex](AresStorm-conf.bib))
 
 ## Author and Copyright
 
-Ares is developed in National Engineering Research Center for Big Data Technology and System, Cluster and Grid Computing Lab, Services Computing Technology and System Lab, School of Computer Science and Technology, Huazhong University of Science and Technology, Wuhan 430074, China by Changfu Lin (lcf@hust.edu.cn), Jingjing Zhan (zjj@hust.edu.cn), Hanhua Chen (chen@hust.edu.cn), Jie Tan(tjmaster@hust.edu.cn), Hai Jin (hjin@hust.edu.cn)
+Ares is developed in Big Data Technology and System Lab, Cluster and Grid Computing Lab, Services Computing Technology and System Lab, School of Computer Science and Technology, Huazhong University of Science and Technology, Wuhan 430074, China by Changfu Lin (lcf@hust.edu.cn), Jingjing Zhan (zjj@hust.edu.cn), Hanhua Chen (chen@hust.edu.cn), Jie Tan(tjmaster@hust.edu.cn), Hai Jin (hjin@hust.edu.cn)
 
 Copyright (C) 2017, [STCS & CGCL](http://grid.hust.edu.cn/) and [Huazhong University of Science and Technology](http://www.hust.edu.cn).
 
