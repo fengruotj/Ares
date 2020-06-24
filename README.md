@@ -47,7 +47,7 @@ Configuration including the following
 ./ares-core/src/main/resources/nodetransferpair.properties. (by default)
 ```
 
-### Using AresStorm
+### Using Ares
 
 If you already deploy the Apache Storm cluster environment, you only need to replace these jars to `$STORM_HOME/lib` and `$STORM_HOME/lib-worker`
 > * ares-core-1.0-SNAPSHOT.jar
@@ -65,10 +65,10 @@ In the `storm.yaml` configuration of the nimbus node, perform the following conf
 storm.scheduler: "com.basic.core.scheduler.GameScheduler"
 ```
 
-### AresStorm Benchmark
+### Ares Benchmark
 
 #### Building Benchmark
-AresStorm benchmark code is maintained using [Maven](http://maven.apache.org/). Generate the excutable jar by running
+Ares benchmark code is maintained using [Maven](http://maven.apache.org/). Generate the excutable jar by running
 ```
 cd benchmark/xxx
 mvan clean install -Dmaven.test.skip=true -Dcheckstyle.skip=true
@@ -76,10 +76,10 @@ mvan clean install -Dmaven.test.skip=true -Dcheckstyle.skip=true
 
 #### Running Benchmark
 
-After deploying a AresStorm cluster, you can launch AresStorm by submitting its jar to the cluster. Please refer to Storm documents for how to
+After deploying a Ares cluster, you can launch Ares by submitting its jar to the cluster. Please refer to Storm documents for how to
 [set up a Storm cluster](https://storm.apache.org/documentation/Setting-up-a-Storm-cluster.html) and [run topologies on a Storm cluster](https://storm.apache.org/documentation/Running-topologies-on-a-production-cluster.ht)
 
-Then, you can submit the example to the AresStorm cluster
+Then, you can submit the example to the Ares cluster
 
 ```txt
 storm jar wordCount-1.0-SNAPSHOT.jar com.basic.benchmark.SentenceWordCountThroughputTopology StormWordcountTopollgy *PARALLISM*
@@ -89,11 +89,11 @@ storm jar wordCount-1.0-SNAPSHOT.jar com.basic.benchmark.SentenceWordCountThroug
 
 If you want to know more detailed information, please refer to this paper:
 
-Changfu Lin, Jingjing Zhan, Hanhua Chen, Jie Tan, Hai Jin.  "[Ares: A High Performance and Fault-Tolerant Distributed Stream Processing System](https://ieeexplore.ieee.org/document/8526815/)" in Proceedings of 26th International Conference on Network Protocols (ICNP 2018), TCambridge, UK, September 25-27, 2018 ([Bibtex](AresStorm-conf.bib))
+Changfu Lin, Jingjing Zhan, Hanhua Chen, Jie Tan, Hai Jin.  "[Ares: A High Performance and Fault-Tolerant Distributed Stream Processing System](https://ieeexplore.ieee.org/document/8526815/)" in Proceedings of 26th International Conference on Network Protocols (ICNP 2018), Cambridge, UK, September 25-27, 2018 ([Bibtex](Ares-conf.bib))
 
 ## Author and Copyright
 
-AresStorm is developed in Cluster and Grid Computing Lab, Services Computing Technology and System Lab, Big Data Technology and System Lab, School of Computer Science and Technology, Huazhong University of Science and Technology, Wuhan, China by Changfu Lin (lcf@hust.edu.cn), Jingjing Zhan (zjj@hust.edu.cn), Hanhua Chen (chen@hust.edu.cn), Jie Tan(tjmaster@hust.edu.cn), Hai Jin (hjin@hust.edu.cn)
+Ares is developed in National Engineering Research Center for Big Data Technology and System, Cluster and Grid Computing Lab, Services Computing Technology and System Lab, School of Computer Science and Technology, Huazhong University of Science and Technology, Wuhan 430074, China by Changfu Lin (lcf@hust.edu.cn), Jingjing Zhan (zjj@hust.edu.cn), Hanhua Chen (chen@hust.edu.cn), Jie Tan(tjmaster@hust.edu.cn), Hai Jin (hjin@hust.edu.cn)
 
 Copyright (C) 2017, [STCS & CGCL](http://grid.hust.edu.cn/) and [Huazhong University of Science and Technology](http://www.hust.edu.cn).
 
