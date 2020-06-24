@@ -8,7 +8,7 @@ To address this issue, we design and implement the high performance and fault-to
 
 ## Structure of Ares
 
-![Ares](img/Architecture.png){:height="100" width="100"}
+![Ares](img/Architecture.png)
 
 The architecture of Ares consists of the following components:
 
